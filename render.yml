@@ -3,7 +3,6 @@ services:
   - type: web
     name: bits-student-hub-backend
     env: node
-    region: singapore
     plan: free
     rootDir: backend
     buildCommand: npm install
